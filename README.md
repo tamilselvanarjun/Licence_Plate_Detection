@@ -1,4 +1,4 @@
-# License Plate Detection with YOLOv8
+# License Plate Detection with YOLOv5s
 
 ## Project Overview
 
@@ -33,7 +33,7 @@ The project is organized into the following directories and subdirectories:
  
 ## Training the Model
 
-We used the YOLOv8 architecture for license plate detection. The model was fine-tuned based on a single class (license plates), and the 80 classes from the COCO dataset were removed in the YOLOv8 configuration file (yml).
+We used the YOLOv5s architecture for license plate detection. The model was fine-tuned based on a single class (license plates), and the 80 classes from the COCO dataset were removed in the YOLOv5s configuration file (yml).
 
 ### Training Parameters
 
@@ -62,7 +62,7 @@ train/obj_loss     train/cls_loss    metrics/precision    metrics/recall    metr
 - Solution: Careful data collection, and quality control processes were implemented to create a reliable dataset.
 
 **Problem 2: Model Fine-Tuning**
-- Problem: Fine-tuning YOLOv8 for a single class, license plates, required selecting suitable hyperparameters and managing overfitting.
+- Problem: Fine-tuning YOLOv5s for a single class, license plates, required selecting suitable hyperparameters and managing overfitting.
 - Solution: Extensive experimentation, hyperparameter tuning, and continuous monitoring of the training process helped achieve the desired model accuracy.
 
 **Problem 3: Metric Interpretation**

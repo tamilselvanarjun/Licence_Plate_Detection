@@ -8,6 +8,7 @@ This project aims to design and implement a real-time license plate detection sy
 
 The dataset used for this project consists of 367 images, each paired with a label file containing bounding box coordinates for the license plates. The dataset is available [here]([link_to_dataset](https://drive.google.com/drive/folders/16i5y-OXPfet1w1g9rUlK65moHvTx81Au?usp=sharing)), and it serves as the foundation for training and evaluating the license plate detection model.
 dataset/
+    
     ├── images/
     │   ├── image1.jpg
     │   ├── image2.jpg
@@ -29,42 +30,7 @@ The project is organized into the following directories and subdirectories:
 - **Model-Inference**: Provides example code and documentation for model inference.
 - **Train-Val-Inference**: Includes code and instructions for inference during training and validation phases.
 - **Evaluation Metrics**: Contains scripts and documentation for evaluating model performance, including metrics like precision, recall, and mAP.
-project_root/
-│
-├── Data/
-│   ├── images/
-│   │   ├── image1.jpg
-│   │   ├── image2.jpg
-│   │   ├── ...
-│   │   └── image367.jpg
-│   └── labels/
-│       ├── image1.txt
-│       ├── image2.txt
-│       ├── ...
-│       └── image367.txt
-│
-├── Weights/
-│   ├── best_weights.pt
-│
-├── Results/
-│   ├── result1.jpg
-│   ├── result2.jpg
-│   ├── ...
-│   └── resultN.jpg
-│
-├── Model-Inference/
-│   ├── inference_script.py
-│   └── README.md
-│
-├── Train-Val-Inference/
-│   ├── train_inference_script.py
-│   ├── val_inference_script.py
-│   └── README.md
-│
-└── Evaluation Metrics/
-    ├── evaluation_script.py
-    └── README.md
-
+ 
 ## Training the Model
 
 We used the YOLOv8 architecture for license plate detection. The model was fine-tuned based on a single class (license plates), and the 80 classes from the COCO dataset were removed in the YOLOv8 configuration file (yml).

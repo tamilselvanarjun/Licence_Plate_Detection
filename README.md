@@ -55,16 +55,11 @@ train/obj_loss     train/cls_loss    metrics/precision    metrics/recall    metr
 0.014776           0                 0.80822              0.67873           0.7727             0.33475                 0.041708        0.010181       0               0.00208  0.00208  0.00208
 ```
 
-## Model Deployment
-
-The trained model can be deployed for real-time license plate detection, and results can be saved in the "Results" directory. Refer to the "Model-Inference" section for example code on how to load and use the model.
-
 ## Conclusion
 
 This project successfully fine-tuned the YOLOv8 model for license plate detection. The combination of a well-structured dataset, appropriate training parameters, and evaluation metrics has resulted in a robust license plate detection system.
 
 For more detailed instructions and code examples, refer to the specific directories and README files within this project.
 
----
 
-This consolidated README provides a comprehensive overview of your license plate detection project, including dataset information, project structure, training details, evaluation metrics, and deployment guidance. You can include this README in your project repository for easy reference by collaborators and users.
+
